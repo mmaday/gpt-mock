@@ -83,6 +83,10 @@ export default class Slot {
     return this._id.getDomId();
   }
 
+  getSlotId() {
+    return this._id;
+  }
+
   /**
    * Returns the enabled services.
    *
